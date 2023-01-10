@@ -3,6 +3,9 @@ public class HelloWorld {
         int c=a+b;
         System.out.print("Hello"+c);
     }
+    public static String  display(String s1,String s2){
+        return s1.concat(s2);
+    }
     public static void  ygdisplay(){
         System.out.println("Hello Team !");
     }
@@ -12,6 +15,7 @@ public class HelloWorld {
         System.out.println("Hello");
         System.out.println("i am akhila");
         System.out.println("Hi there");
+        System.out.println(display("hi ","sridevi"));
     }
     public static int substract(int n1, int n2){
         return n1-n2;
