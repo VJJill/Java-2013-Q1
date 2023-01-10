@@ -6,6 +6,7 @@ public class ReverseArray {
         reverseArray(array);
         printArray(array);
     }
+
     public static void reverseArray(int[] array) {
         for (int i = 0; i < array.length / 2; i++) {
             int temp = array[i];
@@ -14,11 +15,11 @@ public class ReverseArray {
             array[array.length - i - 1] = temp;
         }
     }
+
     public static void printArray(int[] array) {
         for (int i : array) {
             System.out.print(i + ", ");
         }
-        System.out.println();
     }
 }
 
