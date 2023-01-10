@@ -7,13 +7,14 @@ public class HelloWorld {
         System.out.println("Hello Team !");
     }
     public static void main(String[] args) {
-        int c=substract(3,2);
+        int c = subtract(3,2);
         HelloWorld.ygdisplay();
         System.out.println("Hello");
         System.out.println("i am akhila");
+        System.out.println("I am a Java Developer");
 
     }
-    public static int substract(int n1, int n2){
+    public static int subtract(int n1, int n2){
         return n1-n2;
     }
 
