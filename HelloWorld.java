@@ -13,7 +13,7 @@ public class HelloWorld {
         System.out.println("Hello");
         HelloWorld.add(12,5);
         System.out.println("hi");
-        
+
     }
     public static int substract(int n1, int n2) {
         return n1 - n2;
