@@ -12,6 +12,7 @@ public class HelloWorld {
         System.out.println("Hello");
         System.out.println("i am akhila");
         System.out.println("Hello all");
+        System.out.println("Welcome to VJTech");
 
     }
     public static int subtract(int n1, int n2){
