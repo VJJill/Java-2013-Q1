@@ -11,7 +11,7 @@ public class HelloWorld {
         HelloWorld.ygdisplay();
         System.out.println("Hello");
         System.out.println("i am akhila");
-        System.out.println("I am a Java Developer");
+        System.out.println("Hello all");
 
     }
     public static int subtract(int n1, int n2){
