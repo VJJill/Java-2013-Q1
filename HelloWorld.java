@@ -16,9 +16,14 @@ public class HelloWorld {
         System.out.println("i am akhila");
         System.out.println("Hi there");
         System.out.println(display("hi ","sridevi"));
+        System.out.println(multiplication(10, 15));
     }
     public static int substract(int n1, int n2){
         return n1-n2;
+    }
+    public static int multiplication(int num1, int num2)
+    {
+        return num1*num2;
     }
 
 }
