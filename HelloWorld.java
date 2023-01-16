@@ -27,7 +27,10 @@ public class HelloWorld {
         return num1*num2;
     }
     public static int division(int n1,int n2){return n1/n2; }
-    
 
 
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "HelloWorld{}";
+    }
 }
