@@ -17,6 +17,7 @@ public class HelloWorld {
         System.out.println("Hi there");
         System.out.println(display("hi ","sridevi"));
         System.out.println(multiplication(10, 15));
+        System.out.println("i did division method");
     }
     public static int substract(int n1, int n2){
         return n1-n2;
@@ -26,6 +27,7 @@ public class HelloWorld {
         return num1*num2;
     }
     public static int division(int n1,int n2){return n1/n2; }
+    
 
 
 }
